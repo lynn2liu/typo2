@@ -12,4 +12,10 @@ Scenario: Successfully go to admin categories page
   	When I follow "Categories"
   	Then I should be on the admin categories page
 
-
+Scenario: Successfully write categories
+    Given I am on the new categories page
+    When I fill in "category_name" with "test"
+    And I fill in "category_keywords" with "keys"
+    And I fill in "category_permalink" with "GG"
+    Then I press "Save"
+    Then I should see "Category was successfully saved."
