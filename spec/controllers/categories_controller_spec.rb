@@ -9,6 +9,7 @@ describe CategoriesController, "/index" do
     }
   end
 
+
   describe "normally" do
     before do
       controller.stub(:template_exists?).and_return false
