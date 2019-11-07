@@ -66,7 +66,7 @@ GEM
     eventmachine (1.0.0)
     factory_girl (2.6.4)
       activesupport (>= 2.3.9)
-    ffi (1.1.5)
+    ffi (1.10.0)
     flickraw (0.9.6)
     flickraw-cached (20120701)
       flickraw (>= 0.9)
